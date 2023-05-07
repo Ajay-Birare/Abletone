@@ -194,10 +194,18 @@ input {
 select {
   width: 300px;
 }
+.lgrid {
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .lastgrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  display: inline;
+  font-weight: bold;
+  /* flex-direction: row; */
+  /* grid-template-columns: repeat(3, 1fr);
+  gap: 10px; */
 }
 
 .box {
@@ -248,7 +256,7 @@ select {
     height: 300px;
   }
 
-  .imgsec{
+  .imgsec {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -303,9 +311,10 @@ select {
   input [type="email"] {
     width: 100px;
   }
-  .lastgrid {
-    grid-template-columns: repeat(1, 1fr);
-    margin: 0 auto;
+  .lgrid ,.lastgrid{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
   .box {
     border: none;
