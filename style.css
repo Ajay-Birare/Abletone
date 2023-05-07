@@ -199,6 +199,7 @@ select {
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
+
 .box {
   text-align: center;
   border: 2px solid black;
@@ -247,6 +248,11 @@ select {
     height: 300px;
   }
 
+  .imgsec{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
   .imgsec img {
     height: 30vh;
   }
@@ -290,7 +296,6 @@ select {
     /* text-align: center; */
     margin-bottom: 10px;
     padding: 20px;
-
   }
   .abletonsvg {
     margin-bottom: 20px;
@@ -302,7 +307,7 @@ select {
     grid-template-columns: repeat(1, 1fr);
     margin: 0 auto;
   }
-  .box{
+  .box {
     border: none;
   }
 }
